@@ -1,7 +1,7 @@
 # Election Analysis with PyPoll
 
 ## Overview of Election Analysis
-The purpose of this analysis was to analyze voting data to audit the results of a local election. Using python to churn through thousands of ballots, we are able to quickly confirm the outcome of the election as well as key supplimentary data like voter turnout by county, percentage share of votes per candidate.  
+The purpose of this analysis was to analyze voting data to audit the results of a congressional election. Using python to churn through thousands of ballots, we are able to quickly confirm the outcome of the election as well as key supplimentary data like voter turnout by county, percentage share of votes per candidate.  
 
 ## Election-Audit Results 
 [Link to the summary output of the PyPoll Program](https://github.com/matthewprice-github/election-analysis/blob/main/election_analysis.txt)
