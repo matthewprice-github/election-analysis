@@ -17,6 +17,6 @@ The purpose of this analysis was to analyze voting data to audit the results of 
 
 
 ##  Election-Audit Summary 
-The script used in this analysis is very versitile. There are only a few changes required to apply this program at a much higher scale. While this audit only had three counties and 3 candidates, if the dataset input contained a higher number of counties and/or candidates, the PyPoll program achieve the same analysis with no edits to main code (assume the CSV file had the same name!).
+The script used in this analysis is very versitile. There are only a few changes required to apply this program at a much higher scale. While this audit only had three counties and 3 candidates, if the dataset input contained a higher number of counties and/or candidates, the PyPoll program achieve the same analysis with no edits to main code (assuming the CSV input file has the same name!).
 
 However, say we wanted to run this program for multiple different election seats. If the voter data had a column that indentified which seat the vote was cast for, we only need to make a few edits to the main body of the code to run this same analysis for ALL of those election seats. First we make an index list to differentiate which election seat the voting data pertains to. Then we run a FOR loop through the data outside of our other loops, adding new unique election seat values to our index list. Once we have our index list completed, we can run our analsis for each election listed in that index using our existing code, and create summaries for all of them. 
